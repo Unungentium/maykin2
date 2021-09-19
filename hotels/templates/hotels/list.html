@@ -1,0 +1,15 @@
+{% extends 'hotels/base.html' %}
+{% block title %}
+<h1>{{name}}</h1>
+{% endblock %}
+<body>
+{% block navbar %}
+{% endblock %}
+{% block content %}
+{% for hotel in hotel_list %}
+<li>
+    {{hotel}}
+</li>
+{% endfor %}
+{% endblock %}
+</body>
