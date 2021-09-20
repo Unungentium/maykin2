@@ -9,6 +9,7 @@ $ source ../dj/Srcipts/activate
 Upon initial run of the server <br/>
 
 $ python mange.py read <br/>
+If uniqueness condition fails, don't worry! The cities are created already, you can move on to the next step </br>
 $ python manage.py runserver <br/>
 
 Admin interface available at '/admin' <br/>
