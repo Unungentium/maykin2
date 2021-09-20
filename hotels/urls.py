@@ -5,4 +5,5 @@ urlpatterns = [
     path('home/', views.home, name='home'),
     #path('index/', views.index, name='index'),
     path('<str:name>/', views.list, name="list"),
+    path('', views.home, name='blank'),
 ]
